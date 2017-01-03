@@ -1,0 +1,46 @@
+﻿	var url = "supplierFiles/vipAccessApplication.do";
+	var params = {};
+	var fn = function(result){//无操作
+	
+	};
+	asyncAjaxMethod(url,params,false,fn);
+	
+	
+	//文件上传
+	var fileurl = "supplierFiles/vipAccessApplication.do";
+	var params = {};
+	var fn = function(data){
+	
+	};
+    addInputUtilFile(fileurl,params,fileElementId,fn);
+	
+	
+	
+	
+	
+	//日期输入当前限制时间之前
+	<div class="item"><input autocomplete="off"  id="establish_dt" type="text" class="Wdate inputWrap2 input_must" onClick="WdatePicker({maxDate:'%y-%M-%d',readOnly:true})"><span class="info_explain ml10"><img src="/vip/resources/images/applyAccess/er.png" class="mr10">成立日期不可为空</span></div>
+
+	
+	//日志插入方式
+	@DocLogger(explain="这里是登陆的东西")
+	
+	
+	
+	
+	
+	
+	
+徐锋  09:59:57
+移动号码，短信收不到，当实际情况发生后，收集信息，比如发送时间，内容等，给(一信通短信接口 QQ 2914082136)。。
+登陆
+http://ums.zj165.com/
+企业编号：235083
+zj_tpsxxyp/PDmYbv76
+确认outside程序已经发送后，
+看一下这个网址，有没有发送记录，以及目标手机手没有拦截设置。
+网址没有发送记录，说明发送 到 一信通接收 有问题。
+有记录，一信通收到了，发送到目标手机有问题。
+带上具体事例，不然会被敷衍掉.
+
+右键项目-》team->切换，打开上面的截图
